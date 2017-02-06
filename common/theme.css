@@ -5,6 +5,7 @@
   --color-sky: #ccffeb;
   --color-seaweed: #47ffb7;
   --color-turquoise: #28b38d;
+  --color-brown: #2a0119;
 
   --font-primary: "Raleway", sans-serif;
   --font-secondary: "Montserrat", sans-serif;
@@ -12,4 +13,13 @@
 
 html {
   font-family: var(--font-primary);
+}
+
+a {
+  font-weight: bold;
+  color: var(--color-brown);
+}
+
+a:hover {
+  color: var(--color-red);
 }
