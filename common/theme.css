@@ -1,0 +1,15 @@
+:root {
+  --color-red: #e60000;
+  --color-salmon: #ff554c;
+  --color-mint: #f6f9f5;
+  --color-sky: #ccffeb;
+  --color-seaweed: #47ffb7;
+  --color-turquoise: #28B38d;
+
+  --font-primary: "Raleway", sans-serif;
+  --font-secondary: "Montserrat", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
