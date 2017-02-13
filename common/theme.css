@@ -1,9 +1,8 @@
 :root {
   --color-red: #e60000;
-  --color-salmon: #ff554c;
-  --color-mint: #f6f9f5;
-  --color-sky: #ccffeb;
-  --color-seaweed: #47ffb7;
+  --color-primary: #ff554c;
+  --color-accent: #8fffb2;
+  --color-secondary: #c9ffd4;
   --color-turquoise: #28b38d;
   --color-brown: #2a0119;
 
