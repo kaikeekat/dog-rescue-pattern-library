@@ -4,12 +4,14 @@
   color: var(--color-primary);
   font-weight: bold;
 }
+
 .btn:hover {
   background-color: var(--color-primary);
   border-color: var(--color-primary);
   color: var(--color-secondary);
   font-weight: bold;
 }
+
 .btn:focus {
   background-color: var(--color-brown);
   border-color: var(--color-brown);
