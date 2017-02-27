@@ -4,7 +4,7 @@
   --color-accent: #8fffb2;
   --color-secondary: #c9ffd4;
   --color-turquoise: #28b38d;
-  --color-brown: #2a0119;
+  --color-brown: #4c2800;
 
   --font-primary: "Raleway", sans-serif;
   --font-secondary: "Montserrat", sans-serif;
@@ -17,6 +17,8 @@ html {
 a {
   font-weight: bold;
   color: var(--color-brown);
+  text-decoration: none;
+
 }
 
 a:hover {
