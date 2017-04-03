@@ -943,24 +943,33 @@
         <section class="pattern" id="forms">
   <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative">
     <h2 class="pattern-name peta push-1-4">Forms</h2>
-        <div class="gutter absolute pin-cr">
-          <a class="pattern-pop" href="patterns/forms/firstsection.html" target="_blank" title="Open pattern in a new tab">
-            <i class="icon i-18">
-              <svg><use xlink:href="#pop-out" /></svg>
-            </i>
-          </a>
-        </div>
+      <nav class="pattern-nav">
+        <ol class="list-group-inline push-1-4">
+            <li><a href="#forms-textfield">Textfield</a></li>
+            <li><a href="#forms-textfieldrequired">Textfieldrequired</a></li>
+        </ol>
+      </nav>
   </div>
 
 
   
 
-    <div class="pattern-details" id="forms-firstsection">
+    <div class="pattern-details" id="forms-textfield">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Textfield</h3>
+            <div class="gutter absolute pin-cr">
+              <a class="pattern-pop" href="patterns/forms/textfield.html" target="_blank" title="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#pop-out" /></svg>
+                </i>
+              </a>
+            </div>
+        </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
           <div class="resizeable-pattern relative" style="">
-            <iframe src="patterns/forms/firstsection.html" scrolling="no" onload="resizeIframe(this)"></iframe>
+            <iframe src="patterns/forms/textfield.html" scrolling="no" onload="resizeIframe(this)"></iframe>
               <div class="resizeable-pattern-length">
                 <div class="resize-handle resize-handle-left" style="">
                   <i class="icon i-18">
@@ -978,165 +987,61 @@
 
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>&lt;h1&gt;LOYAL Rescue Inc. Dog Adoption Application&lt;/h1> Please fill in as much information as possible in each tab. If the application is not complete, we cannot consider you for one of our dogs. Adopting a rescued dog is a serious endeavor and should not be done as a &quot;spur of the moment&quot; action. All YELLOW areas are mandatory. We need to know you as well as we can so please provide us with information that is as accurate possible. Most of these questions do not have &quot;right&quot; or &quot;wrong&quot; answers. They are a way for us to verify that the dog you have selected would be well suited to your home and lifestyle. Frequently Asked Questions about adoption.
-&lt;form class="max-length island" method="post" novalidate="">
-  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
-    &lt;h3 class="push-0">
-        &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-        &lt;span class="icon-label">There are items that require your attention&lt;/span>
-      &lt;/h3>
-  &lt;/div>
+              <code><pre>&lt;div class="push-1-2 xs-1 s-1-2"&gt;
+  &lt;label for="text">Text&lt;/label>
+  &lt;input id="text">
+  &lt;p>&lt;/p>
+&lt;/div>
 
-  &lt;div class="push-1-2">
-    &lt;label for="dname">Name of the dog on the LOYAL Rescue Inc. website you are applying for:&lt;/label>
-    &lt;input id="dname" required aria-describedby="dname-error">
-    &lt;p class="error-message milli island-1-4 push-0" id="dname-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label">Please provide a dog&apos;s name&lt;/span>
-    &lt;/p>
-  &lt;/div>
+&lt;a class="btn btn-light" href="#">Light Button&lt;/a>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details" id="forms-textfieldrequired">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Textfieldrequired</h3>
+            <div class="gutter absolute pin-cr">
+              <a class="pattern-pop" href="patterns/forms/textfieldrequired.html" target="_blank" title="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#pop-out" /></svg>
+                </i>
+              </a>
+            </div>
+        </div>
 
-  &lt;div>
-    &lt;fieldset>
-      &lt;legend>I understand that this application form is not a guarantee that the dog I have applied for will still be available if my application to adopt a dog is approved, as there could be several applications for this dog already in progress or the dog may have a requirement that my home does not provide.&lt;/legend>
-      &lt;input type="radio" id="yes" required>
-      &lt;label for="yes">Yes&lt;/label>
+      <div class="pattern-examples pad-t-1-2 pad-b">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
+          <div class="resizeable-pattern relative" style="">
+            <iframe src="patterns/forms/textfieldrequired.html" scrolling="no" onload="resizeIframe(this)"></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
 
-      &lt;input type="radio" id="no">
-      &lt;label for="no">No&lt;/label>
-    &lt;/fieldset>
-  &lt;/div>
-  &lt;div>
-    &lt;fieldset>
-      &lt;legend>I understand that LOYAL Rescue Inc. does not approve their dogs to applicants on a &quot;first come first serve&quot; basis, it is the best interest of the dog that is considered in the event of multiple applications for the same dog and the home best suited to the specific needs of the dog will be selected.&lt;/legend>
-      &lt;input type="radio" id="yes" required>
-      &lt;label for="yes">Yes&lt;/label>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;div class="push-1-2 xs-1 s-1-2"&gt;
+  &lt;label for="textr">Text&lt;/label>
+  &lt;input id="textr" required aria-describedby="textr-error">
+  &lt;p class="error-message milli island-1-4 push-0" id="textr-error">
+    &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+    &lt;span class="icon-label">Please provide this information.&lt;/span>
+  &lt;/p>
+&lt;/div>
 
-      &lt;input type="radio" id="no">
-      &lt;label for="no">No&lt;/label>
-    &lt;/fieldset>
-  &lt;/div>
-  &lt;div>
-    &lt;fieldset>
-      &lt;legend>In the event that the dog I have applied for is approved to another adopter before my application is processed I will select another dog from the LOYAL Rescue Inc. website and continue with my application screening.&lt;/legend>
-      &lt;input type="radio" id="yes" required>
-      &lt;label for="yes">Yes&lt;/label>
-
-      &lt;input type="radio" id="no">
-      &lt;label for="no">No&lt;/label>
-    &lt;/fieldset>
-  &lt;/div>
-  &lt;div>
-    &lt;fieldset>
-      &lt;legend>I understand and accept that virtually all &quot;rescued&quot; dogs will have behavioral issues of varying degrees. Many of these dogs have been abused or neglected and have a tendency to be more timid and/or defensive than a dog raised from birth by a knowledgeable and responsible dog owner. I understand and accept that while all known behavioral issues will be disclosed prior to the adoption being completed, it is entirely possible that minor or major behavioral issues may arise after the adoption has occurred and the dog is in my home. I am not expecting a pre-trained dog and am willing to work with this dog to help it overcome any issues it may have, or develops while under my care.&lt;/legend>
-      &lt;input type="radio" id="yes" required>
-      &lt;label for="yes">Yes&lt;/label>
-
-      &lt;input type="radio" id="no">
-      &lt;label for="no">No&lt;/label>
-    &lt;/fieldset>
-  &lt;/div>
-  &lt;div>
-    &lt;fieldset>
-      &lt;legend>I understand and accept that although all LOYAL Rescue Inc. dogs have been evaluated by a veterinarian, and that a copy of the veterinarian&apos;s report(s) will be provided at the time of adoption, it is possible that the dog may have minor or major medical issues that are undiagnosed. I understand and accept that the approximate age of the dog is estimated by a veterinarian and may be slightly or significantly inaccurate.&lt;/legend>
-      &lt;input type="radio" id="yes" required>
-      &lt;label for="yes">Yes&lt;/label>
-
-      &lt;input type="radio" id="no">
-      &lt;label for="no">No&lt;/label>
-    &lt;/fieldset>
-  &lt;/div>
-  &lt;div>
-    &lt;fieldset>
-      &lt;legend>I have verfied that this dog is being fostered in a location close enough for me to personally travel to, in order to adopt this dog, should I be the approved adopter.&lt;/legend>
-      &lt;input type="radio" id="yes" required>
-      &lt;label for="yes">Yes&lt;/label>
-
-      &lt;input type="radio" id="no">
-      &lt;label for="no">No&lt;/label>
-    &lt;/fieldset>
-  &lt;/div>
-  &lt;div>
-    &lt;fieldset>
-      &lt;legend>I have thoroughly read and understand the information in the FAQ section of the LOYAL Rescue Inc. website.&lt;/legend>
-      &lt;input type="radio" id="yes" required>
-      &lt;label for="yes">Yes&lt;/label>
-
-      &lt;input type="radio" id="no">
-      &lt;label for="no">No&lt;/label>
-    &lt;/fieldset>
-  &lt;/div>
-
-  &lt;div class="push-1-2">
-    &lt;label for="name">First &amp; Last Name&lt;/label>
-    &lt;input id="name" required aria-describedby="name-error">
-    &lt;p class="error-message milli island-1-4 push-0" id="name-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label">Please provide a name&lt;/span>
-    &lt;/p>
-  &lt;/div>
-  &lt;div class="push-1-2">
-    &lt;label for="pname">Your Age&lt;/label>
-    &lt;input id="pname">
-    &lt;p class="error-message milli island-1-4 push-0">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label">Please provide a name&lt;/span>
-    &lt;/p>
-  &lt;/div>
-
-  &lt;div class="push-1-2">
-    &lt;label for="name">Partner&apos;s First &amp; Last Name&lt;/label>
-    &lt;input id="name" required aria-describedby="name-error">
-    &lt;p class="error-message milli island-1-4 push-0" id="name-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label">Please provide a name&lt;/span>
-    &lt;/p>
-  &lt;/div>
-  &lt;div class="push-1-2">
-    &lt;label for="name">Your Partner&apos;s Age&lt;/label>
-    &lt;input id="name" required aria-describedby="name-error">
-    &lt;p class="error-message milli island-1-4 push-0" id="name-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label">Please provide a name&lt;/span>
-    &lt;/p>
-  &lt;/div>
-
-  &lt;div class="push-1-2">
-    &lt;label for="name">Address&lt;/label>
-    &lt;input id="name" required aria-describedby="name-error">
-    &lt;p class="error-message milli island-1-4 push-0" id="name-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label">Please provide a name&lt;/span>
-    &lt;/p>
-  &lt;/div>
-
-  &lt;div class="push-1-2">
-    &lt;label for="email">Email&lt;/label>
-    &lt;input type="email" id="email" required aria-describedby="email-error">
-    &lt;p class="error-message milli island-1-4 push-0" id="email-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label">Please provide a properly formatted email address&lt;/span>
-    &lt;/p>
-  &lt;/div>
-
-  &lt;div class="push-1-2">
-    &lt;label for="url">Website &lt;em class="flag-optional milli normal">(optional)&lt;/em>&lt;/label>
-    &lt;input type="url" id="url">
-  &lt;/div>
-
-  &lt;div class="push-1-2">
-    &lt;input type="checkbox" id="agree" required aria-describedby="agree-error">
-    &lt;label for="agree">I&apos;m totally awesome!&lt;/label>
-    &lt;p class="error-,essage milli island-1-4 push-0" id="agree-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label">Please agree that you&apos;re totally awesome&lt;/span>
-    &lt;/p>
-  &lt;/div>
-
-  &lt;div class="pad-t-1-2">
-    &lt;button class="btn" type="submit">Send&lt;/button>
-  &lt;/div>
-&lt;/form>
+&lt;a class="btn btn-light" href="#">Light Button&lt;/a>
 </pre></code>
             </div>
           </div>
