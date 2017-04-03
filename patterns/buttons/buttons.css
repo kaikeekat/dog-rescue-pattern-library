@@ -1,20 +1,20 @@
 .btn {
-  background-color: var(--color-secondary);
-  border-color: var(--color-primary);
-  color: var(--color-primary);
+  background-color: var(--color-turquoise);
+  border-color: transparent;
+  color: var(--color-secondary);
   font-weight: bold;
 }
 
 .btn:hover {
   background-color: var(--color-primary);
-  border-color: var(--color-primary);
+  border-color: transparent;
   color: var(--color-secondary);
   font-weight: bold;
 }
 
 .btn:focus {
   background-color: var(--color-brown);
-  border-color: var(--color-brown);
+  border-color: transparent;
   color: var(--color-secondary);
   font-weight: bold;
 }
@@ -23,21 +23,18 @@
   background-color: var(--color-secondary);
   border-color: var(--color-turquoise);
   color: var(--color-turquoise);
-  font-weight: bold;
 }
 
 .btn-light:hover {
   background-color: var(--color-turquoise);
   border-color: var(--color-turquoise);
   color: var(--color-secondary);
-  font-weight: bold;
 }
 
 .btn-light:focus {
   background-color: var(--color-brown);
   border-color: var(--color-brown);
   color: var(--color-secondary);
-  font-weight: bold;
 }
 
 .btn-ghost {

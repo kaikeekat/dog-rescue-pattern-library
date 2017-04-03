@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Adopt a Dog Pt 1</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:500,700" rel="stylesheet">
+  <link href="forms.css" rel="stylesheet">
+</head>
+<body>
+
+  <h1>LOYAL Rescue Inc. Dog Adoption Application</h1>
+  
+Please fill in as much information as possible in each tab. If the application is not complete, we cannot consider you for one of our dogs. Adopting a rescued dog is a serious endeavor and should not be done as a "spur of the moment" action.
+
+All YELLOW areas are mandatory. We need to know you as well as we can so please provide us with information that is as accurate possible. Most of these questions do not have "right" or "wrong" answers. They are a way for us to verify that the dog you have selected would be well suited to your home and lifestyle. Frequently Asked Questions about adoption.
+  <form class="max-length island" method="post" novalidate>
+    <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+      <h3 class="push-0">
+        <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">There are items that require your attention</span>
+      </h3>
+    </div>
+
+  <div class="push-1-2">
+    <label for="dname">Name of the dog on the LOYAL Rescue Inc. website you are applying for:</label>
+    <input id="dname" required aria-describedby="dname-error">
+    <p class="error-message milli island-1-4 push-0" id="dname-error">
+      <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+      <span class="icon-label">Please provide a dog's name</span>
+    </p>
+  </div>
+
+  <div>
+    <fieldset>
+      <legend>I understand that this application form is not a guarantee that the dog I have applied for will still be available if my application to adopt a dog is approved, as there could be several applications for this dog already in progress or the dog may have a requirement that my home does not provide.</legend>
+      <input type="radio" id="yes" required>
+      <label for="yes">Yes</label>
+
+      <input type="radio" id="no">
+      <label for="no">No</label>
+    </fieldset>
+  </div>
+  <div>
+    <fieldset>
+      <legend>I understand that LOYAL Rescue Inc. does not approve their dogs to applicants on a "first come first serve" basis, it is the best interest of the dog that is considered in the event of multiple applications for the same dog and the home best suited to the specific needs of the dog will be selected.</legend>
+      <input type="radio" id="yes" required>
+      <label for="yes">Yes</label>
+
+      <input type="radio" id="no">
+      <label for="no">No</label>
+    </fieldset>
+  </div>
+  <div>
+    <fieldset>
+      <legend>In the event that the dog I have applied for is approved to another adopter before my application is processed I will select another dog from the LOYAL Rescue Inc. website and continue with my application screening.</legend>
+      <input type="radio" id="yes" required>
+      <label for="yes">Yes</label>
+
+      <input type="radio" id="no">
+      <label for="no">No</label>
+    </fieldset>
+  </div>
+  <div>
+    <fieldset>
+      <legend>I understand and accept that virtually all "rescued" dogs will have behavioral issues of varying degrees. Many of these dogs have been abused or neglected and have a tendency to be more timid and/or defensive than a dog raised from birth by a knowledgeable and responsible dog owner. I understand and accept that while all known behavioral issues will be disclosed prior to the adoption being completed, it is entirely possible that minor or major behavioral issues may arise after the adoption has occurred and the dog is in my home. I am not expecting a pre-trained dog and am willing to work with this dog to help it overcome any issues it may have, or develops while under my care.</legend>
+      <input type="radio" id="yes" required>
+      <label for="yes">Yes</label>
+
+      <input type="radio" id="no">
+      <label for="no">No</label>
+    </fieldset>
+  </div>
+  <div>
+    <fieldset>
+      <legend>I understand and accept that although all LOYAL Rescue Inc. dogs have been evaluated by a veterinarian, and that a copy of the veterinarian's report(s) will be provided at the time of adoption, it is possible that the dog may have minor or major medical issues that are undiagnosed. I understand and accept that the approximate age of the dog is estimated by a veterinarian and may be slightly or significantly inaccurate.</legend>
+      <input type="radio" id="yes" required>
+      <label for="yes">Yes</label>
+
+      <input type="radio" id="no">
+      <label for="no">No</label>
+    </fieldset>
+  </div>
+  <div>
+    <fieldset>
+      <legend>I have verfied that this dog is being fostered in a location close enough for me to personally travel to, in order to adopt this dog, should I be the approved adopter.</legend>
+      <input type="radio" id="yes" required>
+      <label for="yes">Yes</label>
+
+      <input type="radio" id="no">
+      <label for="no">No</label>
+    </fieldset>
+  </div>
+  <div>
+    <fieldset>
+      <legend>I have thoroughly read and understand the information in the FAQ section of the LOYAL Rescue Inc. website.</legend>
+      <input type="radio" id="yes" required>
+      <label for="yes">Yes</label>
+
+      <input type="radio" id="no">
+      <label for="no">No</label>
+    </fieldset>
+  </div>
+
+      <div class="push-1-2">
+        <label for="name">First & Last Name</label>
+        <input id="name" required aria-describedby="name-error">
+        <p class="error-message milli island-1-4 push-0" id="name-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide a name</span>
+        </p>
+      </div>
+      <div class="push-1-2">
+        <label for="pname">Your Age</label>
+        <input id="pname">
+        <p class="error-message milli island-1-4 push-0">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide a name</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="name">Partner's First & Last Name</label>
+        <input id="name" required aria-describedby="name-error">
+        <p class="error-message milli island-1-4 push-0" id="name-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide a name</span>
+        </p>
+      </div>
+      <div class="push-1-2">
+        <label for="name">Your Partner's Age</label>
+        <input id="name" required aria-describedby="name-error">
+        <p class="error-message milli island-1-4 push-0" id="name-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide a name</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="name">Address</label>
+        <input id="name" required aria-describedby="name-error">
+        <p class="error-message milli island-1-4 push-0" id="name-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide a name</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="email">Email</label>
+        <input type="email" id="email" required aria-describedby="email-error">
+        <p class="error-message milli island-1-4 push-0" id="email-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide a properly formatted email address</span>
+        </p>
+      </div>
+
+      <div class="push-1-2">
+        <label for="url">Website <em class="flag-optional milli normal">(optional)</em></label>
+        <input type="url" id="url">
+      </div>
+
+      <div class="push-1-2">
+        <input type="checkbox" id="agree" required aria-describedby="agree-error">
+        <label for="agree">I'm totally awesome!</label>
+        <p class="error-,essage milli island-1-4 push-0" id="agree-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please agree that you're totally awesome</span>
+        </p>
+      </div>
+
+      <div class="pad-t-1-2">
+        <button class="btn" type="submit">Send</button>
+      </div>
+    </form>
+
+    <script src="http://thomasjbradley.github.io/form-validation-helper/index.js"></script>
+</body>
+</html>
