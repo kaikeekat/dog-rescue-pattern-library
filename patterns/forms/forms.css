@@ -1,10 +1,10 @@
 .flag-optional {
-  color: var(--color-primary);
+  color: #999;
 }
 
 .is-validated input:invalid,
 .is-validated input[type="checkbox"]:invalid + label::before {
-  border-color: var(--color-turquoise);
+  border-color: #f33;
 }
 
 .error-message {

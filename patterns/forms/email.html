@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Text field required</title>
+  <title>Email</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="../../common/modules.css" rel="stylesheet">
   <link href="../../common/grid.css" rel="stylesheet">
@@ -14,17 +14,19 @@
 </head>
 <body>
 
-  <div class="push-1-2 xs-1 s-1-2">
-    <label for="textr">Text</label>
-    <input id="textr" required aria-describedby="textr-error">
-    <p class="error-message milli island-1-4 push-0" id="textr-error">
-      <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
-      <span class="icon-label">Please provide this information.</span>
-    </p>
-  </div>
+  <form class="max-length island" method="post" novalidate>
 
-  <a class="btn btn-light" href="#">Light Button</a>
+    <div class="push-1-2 xs-1 s-1-2">
+      <label for="email">Email</label>
+      <input id="email" required aria-describedby="email-error">
+      <p class="error-message milli island-1-4 push-0" id="email-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please provide this information.</span>
+      </p>
+    </div>
 
+  </form>
   <script src="http://thomasjbradley.github.io/form-validation-helper/index.js"></script>
+
 </body>
 </html>
