@@ -21,7 +21,7 @@
 
 .btn-light {
   background-color: var(--color-secondary);
-  border-color: var(--color-turquoise);
+  border-color: var(--color-secondary);
   color: var(--color-turquoise);
 }
 
@@ -39,7 +39,7 @@
 
 .btn-ghost {
   background-color: transparent;
-  border-color: var(--color-secondary);
+  border-color: transparent;
   color: var(--color-secondary);
   font-weight: bold;
 }

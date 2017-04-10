@@ -1552,28 +1552,19 @@
         <section class="pattern" id="navigation">
   <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative">
     <h2 class="pattern-name peta push-1-4">Navigation</h2>
-      <nav class="pattern-nav">
-        <ol class="list-group-inline push-1-4">
-            <li><a href="#navigation-nav">Nav</a></li>
-            <li><a href="#navigation-togglenav">Togglenav</a></li>
-        </ol>
-      </nav>
+        <div class="gutter absolute pin-cr">
+          <a class="pattern-pop" href="patterns/navigation/nav.html" target="_blank" title="Open pattern in a new tab">
+            <i class="icon i-18">
+              <svg><use xlink:href="#pop-out" /></svg>
+            </i>
+          </a>
+        </div>
   </div>
 
 
   
 
     <div class="pattern-details" id="navigation-nav">
-        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
-          <h3 class="pattern-name tera push-1-8">Nav</h3>
-            <div class="gutter absolute pin-cr">
-              <a class="pattern-pop" href="patterns/navigation/nav.html" target="_blank" title="Open pattern in a new tab">
-                <i class="icon i-18">
-                  <svg><use xlink:href="#pop-out" /></svg>
-                </i>
-              </a>
-            </div>
-        </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
@@ -1596,57 +1587,20 @@
 
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>
-</pre></code>
-            </div>
-          </div>
-      </div>
-    </div>
-    <div class="pattern-details" id="navigation-togglenav">
-        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
-          <h3 class="pattern-name tera push-1-8">Togglenav</h3>
-            <div class="gutter absolute pin-cr">
-              <a class="pattern-pop" href="patterns/navigation/togglenav.html" target="_blank" title="Open pattern in a new tab">
-                <i class="icon i-18">
-                  <svg><use xlink:href="#pop-out" /></svg>
-                </i>
-              </a>
-            </div>
-        </div>
-
-      <div class="pattern-examples pad-t-1-2 pad-b">
-        <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
-          <div class="resizeable-pattern relative" style="">
-            <iframe src="patterns/navigation/togglenav.html" scrolling="no" onload="resizeIframe(this)"></iframe>
-              <div class="resizeable-pattern-length">
-                <div class="resize-handle resize-handle-left" style="">
-                  <i class="icon i-18">
-                    <svg><use xlink:href="#resize-handle" /></svg>
-                  </i>
-                </div>
-                <div class="resize-handle resize-handle-right" style="">
-                  <i class="icon i-18">
-                    <svg><use xlink:href="#resize-handle" /></svg>
-                  </i>
-                </div>
-              </div>
-          </div>
-        </div>
-
-          <div class="gutter">
-            <div class="pattern-code milli island-1-2">
-              <code><pre>&lt;header&gt;
-  &lt;input type="checkbox" class="nav-check" id="nav-check">
-
-  &lt;label class="nav-label" for="nav-check">Navigate&lt;/label>
-  &lt;nav class="nav">
-    &lt;ul class="nav">
-      &lt;li>&lt;a class="btn" href="index.html">Home&lt;/a>&lt;/li>
-      &lt;li>&lt;a class="btn" href="dinosaurs/">Dinosaurs&lt;/a>&lt;/li>
-      &lt;li>&lt;a class="btn" href="pterosaurs.html">Pterosaurs&lt;/a>&lt;/li>
-      &lt;li>&lt;a class="btn" href="plesiosaurs.html">Plesiosaurs&lt;/a>&lt;/li>
-      &lt;li>&lt;a class="btn" href="mammals.html">Mammals&lt;/a>&lt;/li>
-    &lt;/ul>
+              <code><pre>&lt;header class="masthead" role="banner"&gt;
+  &lt;div class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2">
+    &lt;h1 class="kilo push-0">Loyal Rescue Inc.&lt;/h1>
+  &lt;/div>
+  &lt;nav class="nav" role="navigation" id="nav">
+    &lt;div class="wrapper gutter-1-2">
+      &lt;ol class="list-group-inline push-0">
+        &lt;li>&lt;a class="btn btn-light" href="index.html">Home&lt;/a>&lt;/li>
+        &lt;li>&lt;a class="btn btn-light" href="dogs.html">The Dogs&lt;/a>&lt;/li>
+        &lt;li>&lt;a class="btn btn-light" href="happytails.html">Happy Tails&lt;/a>&lt;/li>
+        &lt;li>&lt;a class="btn btn-light" href="faq.html">FAQ&lt;/a>&lt;/li>
+        &lt;li>&lt;a class="btn btn-light" href="contact.html">Contact Us&lt;/a>&lt;/li>
+      &lt;/ol>
+    &lt;/div>
   &lt;/nav>
 &lt;/header>
 </pre></code>
