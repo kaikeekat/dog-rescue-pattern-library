@@ -14,6 +14,12 @@
   border-radius: 8px;
 }
 
+.card:focus {
+  background-color: var(--color-secondary);
+  color: var(--color-turquoise);
+  border-radius: 8px;
+}
+
 .banner {
   color: var(--color-brown);
 }
