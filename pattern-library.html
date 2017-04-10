@@ -53,6 +53,7 @@
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#buttons">Buttons</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#cards">Cards</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#forms">Forms</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#navigation">Navigation</a></li>
           </ul>
         </nav>
       </div>
@@ -948,12 +949,22 @@
             <li><a href="#forms-checkbox">Checkbox</a></li>
             <li><a href="#forms-email">Email</a></li>
             <li><a href="#forms-number">Number</a></li>
-            <li><a href="#forms-textfield">Textfield</a></li>
-            <li><a href="#forms-textfieldoptional">Textfieldoptional</a></li>
+            <li><a href="#forms-numberoptional">Numberoptional</a></li>
+            <li><a href="#forms-options">Options</a></li>
+            <li><a href="#forms-optionsoptional">Optionsoptional</a></li>
+            <li><a href="#forms-submit">Submit</a></li>
+            <li><a href="#forms-text">Text</a></li>
+            <li><a href="#forms-textarea">Textarea</a></li>
+            <li><a href="#forms-textareaoptional">Textareaoptional</a></li>
+            <li><a href="#forms-textoptional">Textoptional</a></li>
         </ol>
       </nav>
   </div>
 
+    <div class="pattern-desc milli island">
+      <div class="max-length"><p>The form attributes help build the form to apply to adopt a dog.</p>
+</div>
+    </div>
 
   
 
@@ -968,6 +979,10 @@
               </a>
             </div>
         </div>
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>Usually for when the user is required to acknowledge that they understand a statement.</p>
+</div>
+          </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
@@ -1019,6 +1034,10 @@
               </a>
             </div>
         </div>
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>Input for email.</p>
+</div>
+          </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
@@ -1069,6 +1088,10 @@
               </a>
             </div>
         </div>
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>Input for a number value that is required.</p>
+</div>
+          </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
@@ -1108,22 +1131,231 @@
           </div>
       </div>
     </div>
-    <div class="pattern-details" id="forms-textfield">
+    <div class="pattern-details" id="forms-numberoptional">
         <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
-          <h3 class="pattern-name tera push-1-8">Textfield</h3>
+          <h3 class="pattern-name tera push-1-8">Numberoptional</h3>
             <div class="gutter absolute pin-cr">
-              <a class="pattern-pop" href="patterns/forms/textfield.html" target="_blank" title="Open pattern in a new tab">
+              <a class="pattern-pop" href="patterns/forms/numberoptional.html" target="_blank" title="Open pattern in a new tab">
                 <i class="icon i-18">
                   <svg><use xlink:href="#pop-out" /></svg>
                 </i>
               </a>
             </div>
         </div>
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>Input for a number value that isn&#39;t required.</p>
+</div>
+          </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
           <div class="resizeable-pattern relative" style="">
-            <iframe src="patterns/forms/textfield.html" scrolling="no" onload="resizeIframe(this)"></iframe>
+            <iframe src="patterns/forms/numberoptional.html" scrolling="no" onload="resizeIframe(this)"></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
+
+  &lt;div class="push-1-2 xs-1 s-1-2">
+    &lt;input type="numberop" id="numberop">
+    &lt;label for="numberop">Number &lt;em class="flag-optional milli normal">(optional)&lt;/em>&lt;/label>
+  &lt;/div>
+
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details" id="forms-options">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Options</h3>
+            <div class="gutter absolute pin-cr">
+              <a class="pattern-pop" href="patterns/forms/options.html" target="_blank" title="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#pop-out" /></svg>
+                </i>
+              </a>
+            </div>
+        </div>
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>Options for the user to select from.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
+          <div class="resizeable-pattern relative" style="">
+            <iframe src="patterns/forms/options.html" scrolling="no" onload="resizeIframe(this)"></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
+
+  &lt;div class="push-1-2 xs-1 s-1-2">
+    &lt;label for="options">Options&lt;/label>
+    &lt;select id="options">
+      &lt;option>option1&lt;/option>
+      &lt;option>option2&lt;/option>
+      &lt;option>option3&lt;/option>
+    &lt;/select>
+  &lt;/div>
+
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details" id="forms-optionsoptional">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Optionsoptional</h3>
+            <div class="gutter absolute pin-cr">
+              <a class="pattern-pop" href="patterns/forms/optionsoptional.html" target="_blank" title="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#pop-out" /></svg>
+                </i>
+              </a>
+            </div>
+        </div>
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>Options that the user can but is not required to select from.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
+          <div class="resizeable-pattern relative" style="">
+            <iframe src="patterns/forms/optionsoptional.html" scrolling="no" onload="resizeIframe(this)"></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
+
+  &lt;div class="push-1-2 xs-1 s-1-2">
+    &lt;label for="optionsop">Options &lt;em class="flag-optional milli normal">(optional)&lt;/em>&lt;/label>
+    &lt;select id="optionsop">
+      &lt;option>option1&lt;/option>
+      &lt;option>option2&lt;/option>
+      &lt;option>option3&lt;/option>
+    &lt;/select>
+  &lt;/div>
+
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details" id="forms-submit">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Submit</h3>
+            <div class="gutter absolute pin-cr">
+              <a class="pattern-pop" href="patterns/forms/submit.html" target="_blank" title="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#pop-out" /></svg>
+                </i>
+              </a>
+            </div>
+        </div>
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>The button that allows the user to submit the form.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
+          <div class="resizeable-pattern relative" style="">
+            <iframe src="patterns/forms/submit.html" scrolling="no" onload="resizeIframe(this)"></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
+  &lt;div class="pad-t-1-2">
+    &lt;button class="btn" type="submit">SUBMIT APPLICATION&lt;/button>
+  &lt;/div>
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details" id="forms-text">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Text</h3>
+            <div class="gutter absolute pin-cr">
+              <a class="pattern-pop" href="patterns/forms/text.html" target="_blank" title="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#pop-out" /></svg>
+                </i>
+              </a>
+            </div>
+        </div>
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>A required one-line text enter box.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
+          <div class="resizeable-pattern relative" style="">
+            <iframe src="patterns/forms/text.html" scrolling="no" onload="resizeIframe(this)"></iframe>
               <div class="resizeable-pattern-length">
                 <div class="resize-handle resize-handle-left" style="">
                   <i class="icon i-18">
@@ -1158,22 +1390,26 @@
           </div>
       </div>
     </div>
-    <div class="pattern-details" id="forms-textfieldoptional">
+    <div class="pattern-details" id="forms-textarea">
         <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
-          <h3 class="pattern-name tera push-1-8">Textfieldoptional</h3>
+          <h3 class="pattern-name tera push-1-8">Textarea</h3>
             <div class="gutter absolute pin-cr">
-              <a class="pattern-pop" href="patterns/forms/textfieldoptional.html" target="_blank" title="Open pattern in a new tab">
+              <a class="pattern-pop" href="patterns/forms/textarea.html" target="_blank" title="Open pattern in a new tab">
                 <i class="icon i-18">
                   <svg><use xlink:href="#pop-out" /></svg>
                 </i>
               </a>
             </div>
         </div>
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>A required, larger, multi-line text field.</p>
+</div>
+          </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
           <div class="resizeable-pattern relative" style="">
-            <iframe src="patterns/forms/textfieldoptional.html" scrolling="no" onload="resizeIframe(this)"></iframe>
+            <iframe src="patterns/forms/textarea.html" scrolling="no" onload="resizeIframe(this)"></iframe>
               <div class="resizeable-pattern-length">
                 <div class="resize-handle resize-handle-left" style="">
                   <i class="icon i-18">
@@ -1194,12 +1430,225 @@
               <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
 
   &lt;div class="push-1-2 xs-1 s-1-2">
-    &lt;label for="type">Text &lt;em class="flag-optional milli normal">(optional)&lt;/em>&lt;/label>
-    &lt;input id="type">
-    &lt;p>&lt;/p>
+    &lt;label for="area">Text Area&lt;/label>
+    &lt;textarea id="area">&lt;/textarea>
+    &lt;text id="area" required aria-describedby="type-error">
+      &lt;p class="error-message milli island-1-4 push-0" id="area-error">
+        &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+        &lt;span class="icon-label">Please provide this information.&lt;/span>
+      &lt;/p>
+    &lt;/text>
   &lt;/div>
 
 &lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details" id="forms-textareaoptional">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Textareaoptional</h3>
+            <div class="gutter absolute pin-cr">
+              <a class="pattern-pop" href="patterns/forms/textareaoptional.html" target="_blank" title="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#pop-out" /></svg>
+                </i>
+              </a>
+            </div>
+        </div>
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>An unrequired, larger, multi-line text field.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
+          <div class="resizeable-pattern relative" style="">
+            <iframe src="patterns/forms/textareaoptional.html" scrolling="no" onload="resizeIframe(this)"></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
+
+  &lt;div class="push-1-2 xs-1 s-1-2">
+    &lt;label for="areaop">Text Area &lt;em class="flag-optional milli normal">(optional)&lt;/em>&lt;/label>
+    &lt;textarea id="areaop">&lt;/textarea>
+  &lt;/div>
+
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details" id="forms-textoptional">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Textoptional</h3>
+            <div class="gutter absolute pin-cr">
+              <a class="pattern-pop" href="patterns/forms/textoptional.html" target="_blank" title="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#pop-out" /></svg>
+                </i>
+              </a>
+            </div>
+        </div>
+          <div class="pattern-desc milli island">
+            <div class="max-length"><p>An unrequired one-line text field.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
+          <div class="resizeable-pattern relative" style="">
+            <iframe src="patterns/forms/textoptional.html" scrolling="no" onload="resizeIframe(this)"></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
+
+  &lt;div class="push-1-2 xs-1 s-1-2">
+    &lt;label for="typeop">Text &lt;em class="flag-optional milli normal">(optional)&lt;/em>&lt;/label>
+    &lt;input id="typeop">
+  &lt;/div>
+
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="navigation">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative">
+    <h2 class="pattern-name peta push-1-4">Navigation</h2>
+      <nav class="pattern-nav">
+        <ol class="list-group-inline push-1-4">
+            <li><a href="#navigation-nav">Nav</a></li>
+            <li><a href="#navigation-togglenav">Togglenav</a></li>
+        </ol>
+      </nav>
+  </div>
+
+
+  
+
+    <div class="pattern-details" id="navigation-nav">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Nav</h3>
+            <div class="gutter absolute pin-cr">
+              <a class="pattern-pop" href="patterns/navigation/nav.html" target="_blank" title="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#pop-out" /></svg>
+                </i>
+              </a>
+            </div>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
+          <div class="resizeable-pattern relative" style="">
+            <iframe src="patterns/navigation/nav.html" scrolling="no" onload="resizeIframe(this)"></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details" id="navigation-togglenav">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
+          <h3 class="pattern-name tera push-1-8">Togglenav</h3>
+            <div class="gutter absolute pin-cr">
+              <a class="pattern-pop" href="patterns/navigation/togglenav.html" target="_blank" title="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#pop-out" /></svg>
+                </i>
+              </a>
+            </div>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
+          <div class="resizeable-pattern relative" style="">
+            <iframe src="patterns/navigation/togglenav.html" scrolling="no" onload="resizeIframe(this)"></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;header&gt;
+  &lt;input type="checkbox" class="nav-check" id="nav-check">
+
+  &lt;label class="nav-label" for="nav-check">Navigate&lt;/label>
+  &lt;nav class="nav">
+    &lt;ul class="nav">
+      &lt;li>&lt;a class="btn" href="index.html">Home&lt;/a>&lt;/li>
+      &lt;li>&lt;a class="btn" href="dinosaurs/">Dinosaurs&lt;/a>&lt;/li>
+      &lt;li>&lt;a class="btn" href="pterosaurs.html">Pterosaurs&lt;/a>&lt;/li>
+      &lt;li>&lt;a class="btn" href="plesiosaurs.html">Plesiosaurs&lt;/a>&lt;/li>
+      &lt;li>&lt;a class="btn" href="mammals.html">Mammals&lt;/a>&lt;/li>
+    &lt;/ul>
+  &lt;/nav>
+&lt;/header>
 </pre></code>
             </div>
           </div>

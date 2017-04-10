@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Text field</title>
+  <title>Text optional</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="../../common/modules.css" rel="stylesheet">
   <link href="../../common/grid.css" rel="stylesheet">
@@ -17,12 +17,8 @@
   <form class="max-length island" method="post" novalidate>
 
     <div class="push-1-2 xs-1 s-1-2">
-      <label for="type">Text</label>
-      <input id="type" required aria-describedby="type-error">
-      <p class="error-message milli island-1-4 push-0" id="type-error">
-        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
-        <span class="icon-label">Please provide this information.</span>
-      </p>
+      <label for="typeop">Text <em class="flag-optional milli normal">(optional)</em></label>
+      <input id="typeop">
     </div>
 
   </form>

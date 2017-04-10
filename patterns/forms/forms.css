@@ -2,6 +2,16 @@
   color: #999;
 }
 
+input, label {
+  border-color: var(--color-brown);
+  color: var(--color-brown);
+}
+
+label:hover {
+  border-color: var(--color-turquoise);
+  color: var(--color-turquoise);
+}
+
 .is-validated input:invalid,
 .is-validated input[type="checkbox"]:invalid + label::before {
   border-color: #f33;
