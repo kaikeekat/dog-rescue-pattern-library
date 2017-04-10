@@ -14,18 +14,22 @@
   <link href="common.min.css" rel="stylesheet">
   <link href="brand.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:500,700" rel="stylesheet">
 </head>
 <body>
+
+  <svg hidden>
+    <symbol id="icon-copy" viewBox="0 0 256 256">
+      <rect width="125.7" height="27.83" x="65.2" y="175"/>
+      <rect width="125.7" height="27.83" x="65.2" y="117.8"/>
+      <polygon points="82.9 10 82.9 66.8 107.1 66.8 148.9 66.8 173.1 66.8 173.1 10 82.9 10"/>
+      <rect width="219.8" height="207.33" x="18.1" y="38.7" fill="none" stroke-miterlimit="10" stroke-width="20" rx="18.8" ry="18.8"/>
+    </symbol>
+  </svg>
 
   <div class="patternbot-font-primary text-left">
 
     <section>
-      <h2 class="patternbot-color-body giga push-1-4">Primary colours</h2>
-        <div class="patternbot-max-length italic max-length">
-          <p>This colour is the main colour of the website theme.</p>
-
-        </div>
+      <h2 class="patternbot-color-body giga ">Primary colours</h2>
 
       <div class="patternbot-color-swatches patternbot-color-swatches-primary grid grid-stretch">
         <div class="unit xs-1-2" style="background-color:var(--color-primary)">&nbsp;</div>
@@ -35,13 +39,20 @@
       </div>
 
       <ul class="patterbot-color-swatch-labels patternbot-color-body patternbot-list-group list-group-inline milli pad-t-1-2 push-0">
-          <li class="push-r-1-2">
+          <li class="push">
             <div class="push-1-2">
-              <i class="icon i-24" style="background-color:var(--color-primary);">&nbsp;</i>
+              <i class="patternbot-color-swatches icon i-24" style="background-color:var(--color-primary);">&nbsp;</i>
               <span class="icon-label">Primary</span>
             </div>
             <ul class="patternbot-code-details patternbot-code-details-under patternbot-list-group list-group micro push-0">
-              <li class="push-1-8"><code>var(--color-primary)</code></li>
+              <li class="push-1-8 relative">
+                <code>var(--color-primary)</code>
+                <button class="center-contents-vertical patternbot-tool-btn pattern-copy-btn" title="Copy color: --color-primary" aria-label="Copy color: --color-primary" data-clipboard-text="var(--color-primary)" hidden>
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-copy"></use></svg>
+                  </i>
+                </button>
+              </li>
               <li class="push-1-8"><code>#ff554c</code></li>
               <li><code>rgba(255, 85, 76, 1)</code></li>
             </ul>
@@ -52,11 +63,7 @@
     <section class="pad-t">
       <hr class="patternbot-hr">
 
-      <h2 class="patternbot-color-body giga push-1-4">Secondary colours</h2>
-        <div class="patternbot-max-length italic max-length">
-          <p>This colour should be used to create contrast with the primary colour.</p>
-
-        </div>
+      <h2 class="patternbot-color-body giga ">Secondary colours</h2>
 
       <div class="patternbot-color-swatches patternbot-color-swatches-secondary grid grid-stretch">
         <div class="unit xs-1-2" style="background-color:var(--color-secondary)">&nbsp;</div>
@@ -66,13 +73,20 @@
       </div>
 
       <ul class="patterbot-color-swatch-labels patternbot-color-body patternbot-list-group list-group-inline milli pad-t-1-2 push-0">
-          <li class="push-r-1-2">
+          <li class="push">
             <div class="push-1-2">
-              <i class="icon i-24" style="background-color:var(--color-secondary);">&nbsp;</i>
+              <i class="patternbot-color-swatches icon i-24" style="background-color:var(--color-secondary);">&nbsp;</i>
               <span class="icon-label">Secondary</span>
             </div>
             <ul class="patternbot-code-details patternbot-code-details-under patternbot-list-group list-group micro push-0">
-              <li class="push-1-8"><code>var(--color-secondary)</code></li>
+              <li class="push-1-8 relative">
+                <code>var(--color-secondary)</code>
+                <button class="center-contents-vertical patternbot-tool-btn pattern-copy-btn" title="Copy color: --color-secondary" aria-label="Copy color: --color-secondary" data-clipboard-text="var(--color-secondary)" hidden>
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-copy"></use></svg>
+                  </i>
+                </button>
+              </li>
               <li class="push-1-8"><code>#c9ffd4</code></li>
               <li><code>rgba(201, 255, 212, 1)</code></li>
             </ul>
@@ -83,56 +97,80 @@
     <section class="pad-t">
       <hr class="patternbot-hr">
 
-      <h2 class="patternbot-color-body giga push-1-4">Accent colours</h2>
-        <div class="patternbot-max-length italic max-length">
-          <p>All of the colors are here because they can be used anywhere!</p>
-
-        </div>
+      <h2 class="patternbot-color-body giga ">Accent colours</h2>
       <ul class="patterbot-color-swatch-labels patternbot-color-body patternbot-list-group list-group-inline milli push-0">
-          <li class="push-r-1-2 push">
+          <li class="push">
             <div class="patternbot-color-swatches patternbot-color-swatches-accent push-1-2" style="background-color:var(--color-red);">&nbsp;</div>
             <div class="push-1-2">
-              <i class="icon i-24" style="background-color:var(--color-red);">&nbsp;</i>
+              <i class="patternbot-color-swatches icon i-24" style="background-color:var(--color-red);">&nbsp;</i>
               <span class="icon-label">Red</span>
             </div>
             <ul class="patternbot-code-details patternbot-code-details-under patternbot-list-group list-group micro push-0">
-              <li class="push-1-8"><code>var(--color-red)</code></li>
+              <li class="push-1-8 relative">
+                <code>var(--color-red)</code>
+                <button class="center-contents-vertical patternbot-tool-btn pattern-copy-btn" title="Copy color: --color-red" aria-label="Copy color: --color-red" data-clipboard-text="var(--color-red)" hidden>
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-copy"></use></svg>
+                  </i>
+                </button>
+              </li>
               <li class="push-1-8"><code>#e60000</code></li>
               <li><code>rgba(230, 0, 0, 1)</code></li>
             </ul>
           </li>
-          <li class="push-r-1-2 push">
+          <li class="push">
             <div class="patternbot-color-swatches patternbot-color-swatches-accent push-1-2" style="background-color:var(--color-accent);">&nbsp;</div>
             <div class="push-1-2">
-              <i class="icon i-24" style="background-color:var(--color-accent);">&nbsp;</i>
+              <i class="patternbot-color-swatches icon i-24" style="background-color:var(--color-accent);">&nbsp;</i>
               <span class="icon-label">Accent</span>
             </div>
             <ul class="patternbot-code-details patternbot-code-details-under patternbot-list-group list-group micro push-0">
-              <li class="push-1-8"><code>var(--color-accent)</code></li>
+              <li class="push-1-8 relative">
+                <code>var(--color-accent)</code>
+                <button class="center-contents-vertical patternbot-tool-btn pattern-copy-btn" title="Copy color: --color-accent" aria-label="Copy color: --color-accent" data-clipboard-text="var(--color-accent)" hidden>
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-copy"></use></svg>
+                  </i>
+                </button>
+              </li>
               <li class="push-1-8"><code>#8fffb2</code></li>
               <li><code>rgba(143, 255, 178, 1)</code></li>
             </ul>
           </li>
-          <li class="push-r-1-2 push">
+          <li class="push">
             <div class="patternbot-color-swatches patternbot-color-swatches-accent push-1-2" style="background-color:var(--color-turquoise);">&nbsp;</div>
             <div class="push-1-2">
-              <i class="icon i-24" style="background-color:var(--color-turquoise);">&nbsp;</i>
+              <i class="patternbot-color-swatches icon i-24" style="background-color:var(--color-turquoise);">&nbsp;</i>
               <span class="icon-label">Turquoise</span>
             </div>
             <ul class="patternbot-code-details patternbot-code-details-under patternbot-list-group list-group micro push-0">
-              <li class="push-1-8"><code>var(--color-turquoise)</code></li>
+              <li class="push-1-8 relative">
+                <code>var(--color-turquoise)</code>
+                <button class="center-contents-vertical patternbot-tool-btn pattern-copy-btn" title="Copy color: --color-turquoise" aria-label="Copy color: --color-turquoise" data-clipboard-text="var(--color-turquoise)" hidden>
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-copy"></use></svg>
+                  </i>
+                </button>
+              </li>
               <li class="push-1-8"><code>#28b38d</code></li>
               <li><code>rgba(40, 179, 141, 1)</code></li>
             </ul>
           </li>
-          <li class="push-r-1-2 push">
+          <li class="push">
             <div class="patternbot-color-swatches patternbot-color-swatches-accent push-1-2" style="background-color:var(--color-brown);">&nbsp;</div>
             <div class="push-1-2">
-              <i class="icon i-24" style="background-color:var(--color-brown);">&nbsp;</i>
+              <i class="patternbot-color-swatches icon i-24" style="background-color:var(--color-brown);">&nbsp;</i>
               <span class="icon-label">Brown</span>
             </div>
             <ul class="patternbot-code-details patternbot-code-details-under patternbot-list-group list-group micro push-0">
-              <li class="push-1-8"><code>var(--color-brown)</code></li>
+              <li class="push-1-8 relative">
+                <code>var(--color-brown)</code>
+                <button class="center-contents-vertical patternbot-tool-btn pattern-copy-btn" title="Copy color: --color-brown" aria-label="Copy color: --color-brown" data-clipboard-text="var(--color-brown)" hidden>
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-copy"></use></svg>
+                  </i>
+                </button>
+              </li>
               <li class="push-1-8"><code>#4c2800</code></li>
               <li><code>rgba(76, 40, 0, 1)</code></li>
             </ul>

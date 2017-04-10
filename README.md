@@ -1,6 +1,9 @@
 ---
+outputFile: "index.html"
+
 name: "Loyal Rescue"
 fontUrl: "https://fonts.googleapis.com/css?family=Montserrat|Raleway:500,700"
+fontUrl: "https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700"
 fonts:
   primary: |
     The primary typeface is clear, readable, and well-spaced.
