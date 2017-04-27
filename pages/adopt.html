@@ -17,14 +17,54 @@
   <link href="cards.css" rel="stylesheet">
 </head>
 <body>
+  <!--Navigation Bar-->
+  <header class="masthead" role="banner">
+    <div class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2">
+      <h1 class="mega push-0">Loyal Rescue Inc.</h1>
+    </div>
+    <nav class="nav" role="navigation" id="nav">
+      <div class="wrapper gutter-1-2">
+        <ol class="list-group-inline push-0">
+          <li><a class="btn btn-light milli bold" href="home.html">Home</a></li>
+          <li><a class="btn btn-light milli bold" href="thedogs.html">The Dogs</a></li>
+          <li><a class="btn btn-light milli bold" href="adopt.html">Adopt</a></li>
+          <li><a class="btn btn-light milli bold" href="faq.html">FAQ</a></li>
+          <li><a class="btn btn-light milli bold" href="contact.html">Contact Us</a></li>
+        </ol>
+      </div>
+    </nav>
+  </header>
 
-  <div class="banner island-1-2 max-length">
-    <h4 class="push-1-4">Loyal Rescue Inc. Dog Adoption Application</h4>
+  <div class="island-1-2 max-length">
+    <h4 class="push-1-4">Loyal Rescue Inc.<br>Dog Adoption Application</h4>
     <p class="push-0">Please fill in as much information as possible. If the application is not complete, we cannot consider you for one of our dogs. Adopting a rescued dog is a serious endeavor and should not be done as a "spur of the moment" action.</p>
     <p>We need to know you as well as we can so please provide us with information that is as accurate possible. Most of these questions do not have "right" or "wrong" answers. They are a way for us to verify that the dog you have selected would be well suited to your home and lifestyle.</p>
   </div>
 
   <section>
+    <form class="max-length island grid" method="post" novalidate>
+
+      <div class="unit push-1-2 xs-1 s-1-2">
+        <label for="type">Name of the dog on the LOYAL Rescue Inc. website you are applying for:</label>
+        <input id="type" required aria-describedby="type-error">
+        <p class="error-message milli island-1-4 push-0" id="type-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide this information.</span>
+        </p>
+      </div>
+      <div class="push-1-2 xs-1 s-1-2">
+        <p>I understand that this application form is not a guarantee that the dog I have applied for will still be available if my application to adopt a dog is approved, as there could be several applications for this dog already in progress or the dog may have a requirement that my home does not provide.</p>
+        <input type="checkbox" id="agree" required aria-describedby="agree-error">
+        <label for="agree">I understand.</label>
+        <p class="error-message milli island-1-4 push-0" id="agree-error">
+          <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please agree to this long boring disclaimer.</span>
+        </p>
+      </div>
+
+
+    </form>
+<script src="http://thomasjbradley.github.io/form-validation-helper/index.js"></script>
   </section>
 
   <!--Footer-->
