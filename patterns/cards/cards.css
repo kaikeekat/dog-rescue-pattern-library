@@ -22,8 +22,33 @@
 
 .banner {
   color: var(--color-brown);
+  background-image: linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, 0), var(--color-turquoise)), url("../../images/dog7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+.banner-content {
+  background-image: url("../../images/dog7.jpg");
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+.space {
+  height: 150px;
 }
 
 .card:hover a{
   color: var(--color-secondary);
+}
+
+footer {
+  background-color: var(--color-turquoise);
+}
+
+.about {
+  background-color: var(--colour-secondary);
+  border-color: var(--colour-turquoise);
+  border-width: 3px 0;
+  border-style: solid;
+  background-image: url("../images/leaf-bg.svg");
+  background-size: 64px;
 }
